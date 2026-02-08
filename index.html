@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cootrasana</title>
+    <link rel="icon" href="./img/icono.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <img src="./img/icono.jpeg" alt="logo">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Cootrasana</h1>
+                        <span>Transporte seguro y confiable</span>
+                    </div>
+                </a>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Quiénes Somos</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#partners">Aliados</a></li>
+                    <li><a href="#routes">Rutas</a></li>
+                    <li><a href="#why-us">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+
+                <div class="header-actions">
+                    <a href="tel:+1234567890" class="phone-number">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="#contact" class="quote-btn">pqr</a>
+                    <div class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cooperativa de Transportadores de San Antonio Ltda.</h1>
+                <p>Desde 1966 conectando destinos con seguridad, puntualidad y confort. Más de 60 años de experiencia en
+                    transporte de larga distancia y turismo.</p>
+                <a href="#taxi" class="quote-btn"
+                    style="background-color: var(--secondary); padding: 15px 40px; font-size: 1.1rem;">
+                    <i class="fas fa-calendar-alt"></i>
+                    Solicitar Taxi Ahora
+                </a>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">60+</div>
+                        <div class="stat-text">Años de Experiencia</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-text">Buses</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500K+</div>
+                        <div class="stat-text">Pasajeros Satisfechos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-text">Destinos Intermunicipales</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">¿Quiénes Somos?</h2>
+            <p class="section-subtitle">Ofrecemos soluciones de transporte adaptadas a las necesidades de nuestros
+                clientes, garantizando seguridad y confort en cada viaje.</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Misión</h3>
+                        <p>Consolidarnos como una empresa líder en el sector del transporte público y especial,
+                            evolucionando hacia la movilidad sostenible con vehículos eléctricos y optimización
+                            tecnológica de rutas.</p>
+                        <a href="#" class="service-link">
+                            Conocer más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Visión</h3>
+                        <p>Brindar servicios de transporte público de pasajeros seguros, eficientes y confiables,
+                            conectando a San Antonio de Prado con Medellín y municipios cercanos.</p>
+                        <a href="#" class="service-link">
+                            Conocer más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Compromiso</h3>
+                        <p>Más de 6 décadas de operación, comprometidos con la movilidad, el desarrollo regional y la
+                            atención oportuna de rutas.</p>
+                        <a href="#" class="service-link">
+                            Conocer más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--hero_taxi -->
+        <!-- Hero Section -->
+        <section class="hero_taxi" id="taxi">
+            <div class="container_taxi">
+                <div class="hero-content_taxi">
+                    <div class="hero-text_taxi">
+                        <h2>Programa tu viaje confort y estilo</h2>
+                        <p>Disfruta de la belleza del paisaje mientras viajas de forma sostenible. Nuestros taxis ecológicos
+                            ofrecen el equilibrio perfecto entre comodidad, seguridad y respeto por el medio ambiente.</p>
+                        <div class="hero-buttons_taxi">
+                            <a href="https://api.whatsapp.com/send?phone=573045497458&text=Hola quiero pedir mi taxi" class="btn-primary_taxi"><i class="fab fa-whatsapp"></i> Pedir taxi</a>
+                        </div>
+                    </div>
+                    <div class="hero-image_taxi">
+                        <img src="./img/galeria/taxi.jpg"
+                            alt="Bus ecológico en carretera">
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Galería de Fotos</h2>
+            <p class="section-subtitle">Conoce nuestra flota, instalaciones y momentos especiales a través de nuestra galería.</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./img/galeria/especiales.jpeg" alt="Flota de buses" onerror="this.src='https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=Flota+Cootrasana'">
+                    <div class="gallery-overlay">
+                        <h3>Nuestra Flota</h3>
+                        <p>Buses modernos y confortables</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/galeria/itagui.jpeg" alt="Estación de buses" onerror="this.src='https://via.placeholder.com/400x300/2196F3/FFFFFF?text=Estación+Principal'">
+                    <div class="gallery-overlay">
+                        <h3>Estación Principal</h3>
+                        <p>Modernas instalaciones</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/galeria/metro.jpeg" alt="Servicio al cliente" onerror="this.src='https://via.placeholder.com/400x300/FF9800/FFFFFF?text=Servicio+al+Cliente'">
+                    <div class="gallery-overlay">
+                        <h3>Atención al Cliente</h3>
+                        <p>Personal capacitado</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/galeria/rojo.jpeg" alt="Viajes turísticos" onerror="this.src='https://via.placeholder.com/400x300/9C27B0/FFFFFF?text=Viajes+Turísticos'">
+                    <div class="gallery-overlay">
+                        <h3>Viajes Turísticos</h3>
+                        <p>Experiencias inolvidables</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/buses.jpeg" alt="Conductores" onerror="this.src='https://via.placeholder.com/400x300/00BCD4/FFFFFF?text=Conductores+Certificados'">
+                    <div class="gallery-overlay">
+                        <h3>Equipo Profesional</h3>
+                        <p>Conductores certificados</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/galeria/general_c.jpeg" alt="Eventos especiales" onerror="this.src='https://via.placeholder.com/400x300/FF5722/FFFFFF?text=Eventos+Especiales'">
+                    <div class="gallery-overlay">
+                        <h3>Eventos Especiales</h3>
+                        <p>Transporte para ocasiones especiales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Logos Section -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <h2 class="section-title">Nuestros Aliados Comerciales</h2>
+            <p class="section-subtitle">Colaboramos con las mejores empresas para ofrecerte un servicio de calidad.</p>
+
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <img src="./img/logos/tensa.png" alt="Aliado 1" onerror="this.src='https://via.placeholder.com/150x100/4CAF50/FFFFFF?text=Aliado+1'">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logos/solobus.png" alt="Aliado 2" onerror="this.src='https://via.placeholder.com/150x100/2196F3/FFFFFF?text=Aliado+2'">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logos/raitagui.png" alt="Aliado 3" onerror="this.src='https://via.placeholder.com/150x100/FF9800/FFFFFF?text=Aliado+3'">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logos/rsmaria.png" alt="Aliado 4" onerror="this.src='https://via.placeholder.com/150x100/9C27B0/FFFFFF?text=Aliado+4'">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logos/cootranesa.jpeg" alt="Aliado 5" onerror="this.src='https://via.placeholder.com/150x100/00BCD4/FFFFFF?text=Aliado+5'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Routes Section -->
+    <section class="routes" id="routes">
+        <div class="container">
+            <h2 class="section-title">Nuestras Rutas</h2>
+            <p class="section-subtitle">Conoce las rutas que cubrimos y planifica tu próximo viaje con nosotros.</p>
+
+            <div class="routes-grid">
+                <div class="route-item">
+                    <h3>Ruta 1: San Antonio - Medellín</h3>
+                    <div class="route-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7930.108948333333!2d-75.61000000000001!3d6.183333333333334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e46825a5e0a4a1b%3A0x1c1e1a5e5e5e5e5e!2sSan+Antonio+de+Prado%2C+Medellín%2C+Antioquia!3m2!1d6.1833333!2d-75.61000000000001!4m5!1s0x8e4428ef4e2e5e5b%3A0x1c1e1a5e5e5e5e5e!2sMedellín%2C+Antioquia!3m2!1d6.2441989!2d-75.573553!5e0!3m2!1ses!2sco!4v1610000000000!5m2!1ses!2sco" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p><strong>Horarios:</strong> 5:00 AM - 10:00 PM cada 15 minutos</p>
+                </div>
+
+                <div class="route-item">
+                    <h3>Ruta 2: San Antonio - Itagüí</h3>
+                    <div class="route-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7930.108948333333!2d-75.61000000000001!3d6.183333333333334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e46825a5e0a4a1b%3A0x1c1e1a5e5e5e5e5e!2sSan+Antonio+de+Prado%2C+Medellín%2C+Antioquia!3m2!1d6.1833333!2d-75.61000000000001!4m5!1s0x8e4428a5e5e5e5e5%3A0x1c1e1a5e5e5e5e5e!2sItagüí%2C+Antioquia!3m2!1d6.166667!2d-75.616667!5e0!3m2!1ses!2sco!4v1610000000000!5m2!1ses!2sco" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p><strong>Horarios:</strong> 6:00 AM - 9:00 PM cada 30 minutos</p>
+                </div>
+
+                <div class="route-item">
+                    <h3>Ruta 3: San Antonio - Aguacatala</h3>
+                    <div class="route-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7930.108948333333!2d-75.61000000000001!3d6.183333333333334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e46825a5e0a4a1b%3A0x1c1e1a5e5e5e5e5e!2sSan+Antonio+de+Prado%2C+Medellín%2C+Antioquia!3m2!1d6.1833333!2d-75.61000000000001!4m5!1s0x8e4428b5e5e5e5e5%3A0x1c1e1a5e5e5e5e5e!2sEnvigado%2C+Antioquia!3m2!1d6.166667!2d-75.583333!5e0!3m2!1ses!2sco!4v1610000000000!5m2!1ses!2sco" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p><strong>Horarios:</strong> 5:30 AM - 9:30 PM cada 20 minutos</p>
+                </div>
+
+                <div class="route-item">
+                    <h3>Ruta 4: San Antonio - Sabaneta</h3>
+                    <div class="route-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7930.108948333333!2d-75.61000000000001!3d6.183333333333334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e46825a5e0a4a1b%3A0x1c1e1a5e5e5e5e5e!2sSan+Antonio+de+Prado%2C+Medellín%2C+Antioquia!3m2!1d6.1833333!2d-75.61000000000001!4m5!1s0x8e4428c5e5e5e5e5%3A0x1c1e1a5e5e5e5e5e!2sSabaneta%2C+Antioquia!3m2!1d6.150000!2d-75.600000!5e0!3m2!1ses!2sco!4v1610000000000!5m2!1ses!2sco" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p><strong>Horarios:</strong> 6:00 AM - 8:00 PM cada 45 minutos</p>
+                </div>
+
+                <div class="route-item">
+                    <h3>Ruta 5: San Antonio - La Estrella</h3>
+                    <div class="route-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7930.108948333333!2d-75.61000000000001!3d6.183333333333334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8e46825a5e0a4a1b%3A0x1c1e1a5e5e5e5e5e!2sSan+Antonio+de+Prado%2C+Medellín%2C+Antioquia!3m2!1d6.1833333!2d-75.61000000000001!4m5!1s0x8e4428d5e5e5e5e5%3A0x1c1e1a5e5e5e5e5e!2sLa+Estrella%2C+Antioquia!3m2!1d6.133333!2d-75.650000!5e0!3m2!1ses!2sco!4v1610000000000!5m2!1ses!2sco" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p><strong>Horarios:</strong> 7:00 AM - 7:00 PM cada hora</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">¿Por Qué Elegir Cootrasana?</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Nuestro compromiso con la excelencia nos
+                ha posicionado como líderes en el sector de transporte.</p>
+
+            <div class="why-us-content">
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad Garantizada</h3>
+                    <p>Todos nuestros conductores son certificados y los buses cuentan con los más altos estándares de
+                        seguridad.</p>
+                </div>
+
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Puntualidad</h3>
+                    <p>Más del 98% de nuestros servicios llegan a tiempo. Tu tiempo es valioso y nosotros lo respetamos.
+                    </p>
+                </div>
+
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Nuestro equipo está disponible 24/7 para atender tus necesidades y resolver cualquier
+                        inconveniente.</p>
+                </div>
+
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Compromiso Ambiental</h3>
+                    <p>Flota ecológica con bajas emisiones. Contribuimos activamente a la sostenibilidad del planeta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contáctenos</h2>
+                    <p>¿Listo para planificar tu próximo viaje? Nuestro equipo está disponible para ayudarte a organizar
+                        el transporte perfecto para tus necesidades.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Dirección</h4>
+                                <p>San Antonio de Prado, Medellín, Antioquia</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+57 311 456 7890</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@cootrasana.com</p>
+                            </div>
+                        </div>
+                        <div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667.7509226738778!2d-75.65356396925804!3d6.183916994691758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4681b97bcf8849%3A0x9e46a471c52c7e0f!2sCootrasana!5e0!3m2!1ses-419!2sco!4v1770472632275!5m2!1ses-419!2sco"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Realizar PQR</h3>
+                <form id="quoteForm" action="https://formspree.io/f/mojnqneo" method="POST" class="contact-form-inner">
+                    <h3>Solicitar Cotización</h3>
+                
+                    <input type="hidden" name="_subject" value="Nueva solicitud de Cootrasana">
+                    <input type="hidden" name="_language" value="es">
+                    <input type="text" name="_gotcha" style="display:none">
+                
+                    <label class="form-label">
+                        <span class="label-text">Nombre Completo *</span>
+                        <input type="text" name="nombre" class="form-input" required>
+                    </label>
+                
+                    <label class="form-label">
+                        <span class="label-text">Correo Electrónico *</span>
+                        <input type="email" name="email" class="form-input" required>
+                    </label>
+                
+                    <label class="form-label">
+                        <span class="label-text">Teléfono *</span>
+                        <input type="tel" name="telefono" class="form-input" required>
+                    </label>
+                
+                    <label class="form-label">
+                        <span class="label-text">Tipo de Servicio *</span>
+                        <select name="servicio" class="form-select" required>
+                            <option value="">Seleccione un servicio</option>
+                            <option value="taxi">Servicio de Taxi</option>
+                            <option value="interurbano">Transporte intermunicipal</option>
+                            <option value="grupos">Transporte urbano</option>
+                            <option value="turismo">Trasnporte Excursiones</option>
+                        </select>
+                    </label>
+                
+                    <label class="form-label">
+                        <span class="label-text">Mensaje</span>
+                        <textarea name="mensaje" class="form-textarea" rows="4"
+                            placeholder="Detalles pqr o situación ocurrida"></textarea>
+                    </label>
+                
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <label for="terminos" class="checkbox-label">
+                            Acepto los términos y condiciones *
+                        </label>
+                    </div>
+                
+                    <button type="submit" class="form-submit-btn">
+                        <i class="fas fa-paper-plane"></i> Enviar Solicitud
+                    </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <img src="./img/icono.jpeg" alt="logo" style="width: 60px; height: auto;">
+                        </div>
+                        <h2>Cootrasana</h2>
+                    </div>
+                    <p>Cooperativa de Transportadores de San Antonio Ltda. Desde 1966 conectando destinos con seguridad,
+                        confort y responsabilidad.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Cootrasana/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/cootrasana_oficial/?hl=es"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/Cootrasana"><i class="fab fa-twitter"></i></a>
+                        <a href="#contact"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#services">Quiénes Somos</a></li>
+                        <li><a href="#fleet">Empresas Aliadas</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#routes">Rutas</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#routes">Transporte Intermunicipal</a></li>
+                        <li><a href="#contact">Servicio de Taxi</a></li>
+                        <li><a href="#contact">Transporte de Grupos</a></li>
+                        <li><a href="#contact">Turismo y Excursiones</a></li>
+                        <li><a href="#contact">Transporte Empresarial</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Aviso Legal</a></li>
+                        <li><a href="#">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cooperativa de Transportadores de San Antonio Ltda. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle del menú móvil
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.innerHTML = navLinks.classList.contains('active')
+                ? '<i class="fas fa-times"></i>'
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
+        // Form submission
+        const quoteForm = document.getElementById('quoteForm');
+        quoteForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Obtener valores del formulario
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const service = document.getElementById('service').value;
+
+            // Simular envío del formulario
+            alert(`¡Gracias ${name}! Hemos recibido tu solicitud para ${service}. Te contactaremos en ${email} en las próximas 24 horas.`);
+
+            // Resetear formulario
+            quoteForm.reset();
+        });
+
+        // Smooth scrolling para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animación al hacer scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observar elementos para animación
+        document.querySelectorAll('.service-card, .fleet-card, .why-us-item, .gallery-item, .partner-logo, .route-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.5s, transform 0.5s';
+            observer.observe(el);
+        });
+
+        // Contador animado en hero
+        const statNumbers = document.querySelectorAll('.stat-number');
+        statNumbers.forEach(stat => {
+            const target = parseInt(stat.textContent);
+            let current = 0;
+            const increment = target / 50;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                stat.textContent = Math.floor(current) + (stat.textContent.includes('+') ? '+' : '');
+            }, 50);
+        });
+
+        // Lightbox para galería
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const imgSrc = this.querySelector('img').src;
+                const imgAlt = this.querySelector('img').alt;
+                
+                // Crear lightbox
+                const lightbox = document.createElement('div');
+                lightbox.style.position = 'fixed';
+                lightbox.style.top = '0';
+                lightbox.style.left = '0';
+                lightbox.style.width = '100%';
+                lightbox.style.height = '100%';
+                lightbox.style.backgroundColor = 'rgba(0,0,0,0.9)';
+                lightbox.style.zIndex = '10000';
+                lightbox.style.display = 'flex';
+                lightbox.style.justifyContent = 'center';
+                lightbox.style.alignItems = 'center';
+                lightbox.style.cursor = 'pointer';
+                
+                const img = document.createElement('img');
+                img.src = imgSrc;
+                img.alt = imgAlt;
+                img.style.maxWidth = '90%';
+                img.style.maxHeight = '90%';
+                img.style.objectFit = 'contain';
+                
+                lightbox.appendChild(img);
+                document.body.appendChild(lightbox);
+                
+                // Cerrar lightbox al hacer clic
+                lightbox.addEventListener('click', () => {
+                    document.body.removeChild(lightbox);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
